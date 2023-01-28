@@ -25,6 +25,7 @@ class LinkedList:  #class for link list itself
         while curr_node: #while current_node is not Null
             print(curr_node.data, end=' ')
             curr_node = curr_node.next #points the next node
+        print(end='\n')
 
     def prepend(self, data):  #Prepending function 
         new_node = Node(data)
